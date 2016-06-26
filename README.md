@@ -2,12 +2,23 @@
 スマブラ64のAIを書くためのスクリプトです。
 
 
-## 使い方
+### 起動に必要なもの
 Lua拡張したMupen64rerecording
-- [Google](https://code.google.com/archive/p/mupen64-rr/downloads)
-- [GitHub](https://github.com/anta-/mupen64-rr-lua-)
+- ビルド済みの[Google](https://code.google.com/archive/p/mupen64-rr/downloads)
+- ソースは[GitHub](https://github.com/anta-/mupen64-rr-lua-)
 
-上でスマブラのロムをロードした状態でmain.luaを実行することで動作します。
+上でmain.luaを実行することで動作します。
+
+### 実行手順に関して
+- 1.MupenLuaを起動しスマブラのロムをロード
+- 2.対戦モードで1P,2Pキャラクターを選択後、ステージをプププランドにして対戦を開始する
+- 3.Lua ScriptのNew Instance...を選択しコンソールウィンドウを開く
+- 4.Browse...からmain.luaを選択（main.luaと同じディレクトリにインクルードするすべてのファイルを置いておく）
+- 5.Runすることでスクリプトが動くようになります。
+
+### ショートカットキー等に関して
+最初はmain.luaをメモ帳等で開きながら自分が使いやすいように編集してください。
+スクリプト起動中でも上書き保存後コンソールウィンドウでRestartするだけで変更を適用させる事ができます。
 
 
 
