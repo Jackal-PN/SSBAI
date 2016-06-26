@@ -3,8 +3,8 @@
 
 
 ## 使い方
-Lua拡張したMupen64rerecordingで
+Lua拡張したMupen64rerecording
 - [Google](https://code.google.com/archive/p/mupen64-rr/downloads)
 - [GitHub](https://github.com/anta-/mupen64-rr-lua-)
 
-スマブラのロムをロードした状態でmain.luaを実行することで動作します。
+上でスマブラのロムをロードした状態でmain.luaを実行することで動作します。
