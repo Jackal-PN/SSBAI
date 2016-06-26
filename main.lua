@@ -1,34 +1,19 @@
---[[MupenLua
-ƒCƒ“ƒNƒ‹[ƒh‚·‚éƒtƒ@ƒCƒ‹‚Í“¯‚¶ŠK‘w‚É“ü‚ê‚Ä‚ËB
-ƒvƒvƒvƒ‰ƒ“ƒh‚Å‘Îín‚ß‚Ä‚©‚ç‹N“®‚µ‚Ä‚ËB
 
+--ã‚·ãƒ§ãƒ¼ãƒˆã‚«ãƒƒãƒˆã‚­ãƒ¼ã®è¨­å®š----------------------------------
 
-‚Å‚«‚é‚±‚Æ
-E2P‚Ì‘€ì§Œä
-Eƒ}ƒEƒX‚ÅˆÚ“®‚¾‚Á‚½‚èAƒqƒbƒg‚·‚é‚Ü‚ÅŒÅ’è‚³‚¹‚½‚èÀ•W§Œä
-EƒRƒ“ƒ{AƒV[ƒ‹ƒhŠÖ˜A‚ÌƒeƒLƒXƒgƒf[ƒ^o—Í
-
-
-‚Å‚«‚È‚¢‚±‚Æ
-E”»’è‰Â‹‰»ƒ`[ƒg“™‚Í‹N“®ƒ^ƒCƒ~ƒ“ƒO‚É§–ñ‚ª‚ ‚é‚½‚ßA•K—v‚É‰‚¶‚ÅŒÂ•Ê‚Ü‚½‚Í‘½d‹N“®‚µ‚Ä‚­‚¾‚³‚¢
-EƒqƒbƒgƒXƒgƒbƒv’†‚¾‚Á‚½‚èAó‚¯g’†‚Ìstate‚ğload‚µ‚Ä‚µ‚Ü‚¤‚ÆƒGƒ‰[“f‚­‚©‚à‚µ‚ê‚Ü‚¹‚ñ
-
-]]
---ƒVƒ‡[ƒgƒJƒbƒgƒL[‚Ìİ’è----------------------------------
-
---§ŒäOFF(‚±‚ÌƒL[‚Æu2v‚ğ“¯‰Ÿ‚µ)
+--åˆ¶å¾¡OFF(ã“ã®ã‚­ãƒ¼ã¨ã€Œ2ã€ã‚’åŒæ™‚æŠ¼ã—)
 StopKEY="S"
---§ŒäON(‚±‚ÌƒL[‚Æu2v‚ğ“¯‰Ÿ‚µ)
+--åˆ¶å¾¡ON(ã“ã®ã‚­ãƒ¼ã¨ã€Œ2ã€ã‚’åŒæ™‚æŠ¼ã—)
 RemoteKEY="R"
---ƒqƒbƒg‚·‚é‚Ü‚ÅÀ•W‚ğŒÅ’è(2PŒÀ’è)
+--ãƒ’ãƒƒãƒˆã™ã‚‹ã¾ã§åº§æ¨™ã‚’å›ºå®š(2Pé™å®š)
 FreezeUntillHitKEY="H"
---À•W‚ğŒÅ’è(‚±‚ÌƒL[‚Æu2v‚ğ“¯‰Ÿ‚µ)
+--åº§æ¨™ã‚’å›ºå®š(ã“ã®ã‚­ãƒ¼ã¨ã€Œ2ã€ã‚’åŒæ™‚æŠ¼ã—)
 FreezeKEY="F"
---À•WŒÅ’è‚Ì‰ğœ(‚±‚ÌƒL[‚Æu2v‚ğ“¯‰Ÿ‚µ)
+--åº§æ¨™å›ºå®šã®è§£é™¤(ã“ã®ã‚­ãƒ¼ã¨ã€Œ2ã€ã‚’åŒæ™‚æŠ¼ã—)
 ChingKEY="C"
---•`‰æON/OFF(‚±‚ÌƒL[‚Æu1or2v‚ğ“¯‰Ÿ‚µAOFF‚µ‚½‚¢‚Æ‚«‚Í‚±‚ÌƒL[‚Æu0v‚ğ“¯‰Ÿ‚µ)
+--æç”»ON/OFF(ã“ã®ã‚­ãƒ¼ã¨ã€Œ1or2ã€ã‚’åŒæ™‚æŠ¼ã—ã€OFFã—ãŸã„ã¨ãã¯ã“ã®ã‚­ãƒ¼ã¨ã€Œ0ã€ã‚’åŒæ™‚æŠ¼ã—)
 DrawKEY="D"
---ƒV[ƒ‹ƒhƒ‚[ƒhON/OFF(‚±‚ÌƒL[‚Æu2v‚ğ“¯‰Ÿ‚µAOFF‚µ‚½‚¢‚Æ‚«‚Í‚±‚ÌƒL[‚Æu0v‚ğ“¯‰Ÿ‚µ)
+--ã‚·ãƒ¼ãƒ«ãƒ‰ãƒ¢ãƒ¼ãƒ‰ON/OFF(ã“ã®ã‚­ãƒ¼ã¨ã€Œ2ã€ã‚’åŒæ™‚æŠ¼ã—ã€OFFã—ãŸã„ã¨ãã¯ã“ã®ã‚­ãƒ¼ã¨ã€Œ0ã€ã‚’åŒæ™‚æŠ¼ã—)
 ShieldKEY="G"
 
 --include--------------------------------------------
@@ -41,40 +26,40 @@ require("standard_ai")
 require("map_v3")
 require("cheat")
 
---initializei‰Šú‰»j-----------------------------------
---‘€ìŒn
-latency=2--1P‚Ì‘€ì’x‰„ƒtƒŒ[ƒ€
+--initializeï¼ˆåˆæœŸåŒ–ï¼‰-----------------------------------
+--æ“ä½œç³»
+latency=2--1Pã®æ“ä½œé…å»¶ãƒ•ãƒ¬ãƒ¼ãƒ 
 setLatency()
 refleshinput(300)
-ControlFlag = {[1]=false,[2]=false,[3]=false,[4]=false}--2P‚ÌON/OFFØ‚è‘Ö‚¦‚ÍR+2/S+2A‘¼“¯—l
-PN = 2 --AI‚ª‘€ì‚·‚éƒ|[ƒg”Ô†
-OPN = 1 --AI‚ª‘Î›³‚·‚éƒvƒŒƒCƒ„[‚Ìƒ|[ƒg”Ô†
-AGFlag[PN]=false--ƒI[ƒgƒK[ƒh‚Ìİ’èAON/OFF‚ÍG+num/G+0(ƒ[ƒ)ƒL[‚ÅØ‚è‘Ö‚¦
-TechD = nil--ó‚¯g•ûŒüBnil‚Åƒ‰ƒ“ƒ_ƒ€A"R"‚Å‰EA"L"‚Å¶A"S"‚Å‚»‚ÌêA"D"‚Åƒ_ƒEƒ“A‚½‚¾‚µƒAƒ‹ƒtƒ@ƒxƒbƒg‚Í•K‚¸hiƒ_ƒuƒ‹ƒNƒH[ƒgj‚ÅˆÍ‚Ş‚±‚Æ
---•`‰æŠÖŒW
+ControlFlag = {[1]=false,[2]=false,[3]=false,[4]=false}--2Pã®ON/OFFåˆ‡ã‚Šæ›¿ãˆã¯R+2/S+2ã€ä»–åŒæ§˜
+PN = 2 --AIãŒæ“ä½œã™ã‚‹ãƒãƒ¼ãƒˆç•ªå·
+OPN = 1 --AIãŒå¯¾å³™ã™ã‚‹ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã®ãƒãƒ¼ãƒˆç•ªå·
+AGFlag[PN]=false--ã‚ªãƒ¼ãƒˆã‚¬ãƒ¼ãƒ‰ã®è¨­å®šã€ON/OFFã¯G+num/G+0(ã‚¼ãƒ­)ã‚­ãƒ¼ã§åˆ‡ã‚Šæ›¿ãˆ
+TechD = nil--å—ã‘èº«æ–¹å‘ã€‚nilã§ãƒ©ãƒ³ãƒ€ãƒ ã€"R"ã§å³ã€"L"ã§å·¦ã€"S"ã§ãã®å ´ã€"D"ã§ãƒ€ã‚¦ãƒ³ã€ãŸã ã—ã‚¢ãƒ«ãƒ•ã‚¡ãƒ™ãƒƒãƒˆã¯å¿…ãšâ€ï¼ˆãƒ€ãƒ–ãƒ«ã‚¯ã‚©ãƒ¼ãƒˆï¼‰ã§å›²ã‚€ã“ã¨
+--æç”»é–¢ä¿‚
 StageID=memory.readbyte(StageIDAddr)
-drawFlag = false--ƒ}ƒbƒv•`‰æ‚Ìİ’èAON/OFF‚ÍD+num/D+0(ƒ[ƒ)ƒL[‚ÅØ‚è‘Ö‚¦
+drawFlag = false--ãƒãƒƒãƒ—æç”»ã®è¨­å®šã€ON/OFFã¯D+num/D+0(ã‚¼ãƒ­)ã‚­ãƒ¼ã§åˆ‡ã‚Šæ›¿ãˆ
 if drawFlag then
 wgui.resize(wnd.width+width, wnd.height+height)
 --mapmode = 1
 end
 
---ƒQ[ƒ€‚ÌŠî–{î•ñ‚ğæ“¾‚µ‚½‚è‚·‚é‚ ‚ê
-defineStats(PN)--ƒQ[ƒ€‘¤‚Åg‚í‚ê‚éƒAƒjƒ[ƒVƒ‡ƒ“ID‚Ìî•ñƒe[ƒuƒ‹‚ğ’è‹`
+--ã‚²ãƒ¼ãƒ ã®åŸºæœ¬æƒ…å ±ã‚’å–å¾—ã—ãŸã‚Šã™ã‚‹ã‚ã‚Œ
+defineStats(PN)--ã‚²ãƒ¼ãƒ å´ã§ä½¿ã‚ã‚Œã‚‹ã‚¢ãƒ‹ãƒ¡ãƒ¼ã‚·ãƒ§ãƒ³IDã®æƒ…å ±ãƒ†ãƒ¼ãƒ–ãƒ«ã‚’å®šç¾©
 defineStats(OPN)
-AddCharactersAction(PN)--Actionƒe[ƒuƒ‹iAction[]={}j‚ÉƒLƒƒƒ‰ŒÅ—L‚Ìó‘Ôƒe[ƒuƒ‹‚ğ’Ç‰Á
+AddCharactersAction(PN)--Actionãƒ†ãƒ¼ãƒ–ãƒ«ï¼ˆAction[]={}ï¼‰ã«ã‚­ãƒ£ãƒ©å›ºæœ‰ã®çŠ¶æ…‹ãƒ†ãƒ¼ãƒ–ãƒ«ã‚’è¿½åŠ 
 AddCharactersAction(OPN)
 
-GetInitialDashSpeeds(CharaID[PN])--50F–Ú‚Ü‚Å‚ÌƒXƒeƒbƒv‚Ì‘¬‚³‚ğŒvZ‚µ‚Ä‚¨‚­
+GetInitialDashSpeeds(CharaID[PN])--50Fç›®ã¾ã§ã®ã‚¹ãƒ†ãƒƒãƒ—ã®é€Ÿã•ã‚’è¨ˆç®—ã—ã¦ãŠã
 GetInitialDashSpeeds(CharaID[OPN])
-GetInitialJumpVelocity(PN)--‘Sí—Ş‚Ì’nãƒWƒƒƒ“ƒv‹y‚Ñ2’iƒWƒƒƒ“ƒv‚ÌY‰‘¬“x‚ğŒvZ‚µ‚Ä‚¨‚­
+GetInitialJumpVelocity(PN)--å…¨ç¨®é¡ã®åœ°ä¸Šã‚¸ãƒ£ãƒ³ãƒ—åŠã³2æ®µã‚¸ãƒ£ãƒ³ãƒ—ã®Yåˆé€Ÿåº¦ã‚’è¨ˆç®—ã—ã¦ãŠã
 GetInitialJumpVelocity(OPN)
-GetInitialGrabDistance(PN)--ƒXƒeƒbƒv‰‘¬“x‚ªŒ¸Š‚µn‚ß‚é‘O‚ÉƒuƒŒ[ƒLs“®‚ğ‹N‚±‚µ‚½‚ÌˆÚ“®‹——£‚ğŒvZ‚µ‚Ä‚¨‚­
+GetInitialGrabDistance(PN)--ã‚¹ãƒ†ãƒƒãƒ—åˆé€Ÿåº¦ãŒæ¸›è¡°ã—å§‹ã‚ã‚‹å‰ã«ãƒ–ãƒ¬ãƒ¼ã‚­è¡Œå‹•ã‚’èµ·ã“ã—ãŸæ™‚ã®ç§»å‹•è·é›¢ã‚’è¨ˆç®—ã—ã¦ãŠã
 GetInitialGrabDistance(OPN)
 
 --mainloop-------------------------------------------------
-emu.atvi(function()--60F/s‚Å“®ì
-TurnFlag(PN)--ƒL[ƒ{[ƒhSƒL[{PN(AI‚ª‘€ì‚·‚éƒ|[ƒg”Ô†)‚Å‘€ì§ŒäOFFARƒL[{1`4‚Å‘€ì§ŒäONADƒL[{0`1‚Å•`‰æONA3‚ÅOFF
+emu.atvi(function()--60F/sã§å‹•ä½œ
+TurnFlag(PN)--ã‚­ãƒ¼ãƒœãƒ¼ãƒ‰Sã‚­ãƒ¼ï¼‹PN(AIãŒæ“ä½œã™ã‚‹ãƒãƒ¼ãƒˆç•ªå·)ã§æ“ä½œåˆ¶å¾¡OFFã€Rã‚­ãƒ¼ï¼‹1ï½4ã§æ“ä½œåˆ¶å¾¡ONã€Dã‚­ãƒ¼ï¼‹0ï½1ã§æç”»ONã€3ã§OFF
 --TurnFlag(OPN)
 GetPosition(PN)
 GetPosition(OPN)
@@ -87,7 +72,7 @@ GetDirection(OPN)
 GetOccasion(PN)
 GetOccasion(OPN)
 GetP2PDistance(PN,OPN)
-Combokun()--ƒRƒ“ƒ{‚ªŒq‚ª‚Á‚½‚¾‚Æ‚©‰½Fd’¼‚¾‚Æ‚©ó‚¯gë‚ê‚½‚Æ‚©‚Ìî•ñ‚ğƒRƒ“ƒ\[ƒ‹ƒEƒBƒ“ƒhƒE‚Éo—Í
+Combokun()--ã‚³ãƒ³ãƒœãŒç¹‹ãŒã£ãŸã ã¨ã‹ä½•Fç¡¬ç›´ã ã¨ã‹å—ã‘èº«ç‹©ã‚ŒãŸã¨ã‹ã®æƒ…å ±ã‚’ã‚³ãƒ³ã‚½ãƒ¼ãƒ«ã‚¦ã‚£ãƒ³ãƒ‰ã‚¦ã«å‡ºåŠ›
 --print(ActFC[PN])
 --print(memory.readbyte(StunAddr[2]))
 --BrakeForcePred(OPN,VelocityX["P"..PN])
@@ -98,19 +83,19 @@ Combokun()--ƒRƒ“ƒ{‚ªŒq‚ª‚Á‚½‚¾‚Æ‚©‰½Fd’¼‚¾‚Æ‚©ó‚¯gë‚ê‚½‚Æ‚©‚Ìî•ñ‚ğƒRƒ“ƒ\[ƒ
 --print("Vx"..VelocityX["P"..PN])
 --print("Vy"..VelocityY["P"..PN])
 
---print("2P XÀ•W@F@"..math.round(PositionX["P2"]))
---print("2P YÀ•W@F@"..math.round(PositionY["P2"]))
---“®ì¶¬---------------------------------------
+--print("2P Xåº§æ¨™ã€€ï¼šã€€"..math.round(PositionX["P2"]))
+--print("2P Yåº§æ¨™ã€€ï¼šã€€"..math.round(PositionY["P2"]))
+--å‹•ä½œç”Ÿæˆ---------------------------------------
 --print(BlastLine[memory.readbyte(StageIDAddr)]["-X"])
 --changeprint(VelocityY["P1"])
 --print(memory.readbyte(StageIDAddr))
 --Diet(2)
---MonitData("readdword",Action[PN],ActionAddr[PN])--Œ»İ‚Ç‚Ìƒ‚[ƒVƒ‡ƒ“‚È‚Ì‚©‚ğ•ÏX‚ª‚ ‚èŸ‘æo—Í
+--MonitData("readdword",Action[PN],ActionAddr[PN])--ç¾åœ¨ã©ã®ãƒ¢ãƒ¼ã‚·ãƒ§ãƒ³ãªã®ã‹ã‚’å¤‰æ›´ãŒã‚ã‚Šæ¬¡ç¬¬å‡ºåŠ›
 --MonitData("readdword",Action[OPN],ActionAddr[OPN])--
-if Act[OPN]=="Damaged" then--UŒ‚‚ª“–‚½‚Á‚½
+if Act[OPN]=="Damaged" then--æ”»æ’ƒãŒå½“ãŸã£ãŸ
 --GeneralCombo(PN,OPN)
 else
- if Act[PN]==Action[PN][0x09] then --•œŠˆ‘ä‚É‚¢‚é
+ if Act[PN]==Action[PN][0x09] then --å¾©æ´»å°ã«ã„ã‚‹
   refleshinput(300)
   framecount=0
   Inputs[1]={L=true,Y=0}
@@ -120,45 +105,45 @@ else
   Inputs[5]={Z=true}
   Inputs[6]={Z=false}
  end
- if Occasion[PN]=="Right-Side" or Occasion[PN]=="Left-Side" or Occasion[PN]=="Down-Side" then--êŠO‚É‚¢‚é
+ if Occasion[PN]=="Right-Side" or Occasion[PN]=="Left-Side" or Occasion[PN]=="Down-Side" then--å ´å¤–ã«ã„ã‚‹
   Recovery(PN)
  else
-  if Occasion[PN]=="Ground" then--’nã‚É‚¢‚é
+  if Occasion[PN]=="Ground" then--åœ°ä¸Šã«ã„ã‚‹
    refleshinput(300)
    --DashRisingElbowMan(PN,OPN)
    --Jumping(PN,"StillShortHop")
   -- JumpingCordination(PN,"CJump","backward","FA","ASA","UA")
-  elseif Occasion[PN]=="RPlat" or Occasion[PN]=="LPlat" or Occasion[PN]=="CPlat" then--‘äã‚É‚¢‚é
+  elseif Occasion[PN]=="RPlat" or Occasion[PN]=="LPlat" or Occasion[PN]=="CPlat" then--å°ä¸Šã«ã„ã‚‹
   refleshinput(300)
   --DropPlat(PN)
   end
  end
 end
 
-ShieldMODE(PN)--ƒI[ƒgƒK[ƒhAƒV[ƒ‹ƒh©“®‰ñ•œAƒK[ƒhŠÖ˜A‚Ìî•ñ‚ğƒRƒ“ƒ\[ƒ‹ƒEƒBƒ“ƒhƒE‚Éo—Í
-Teching(PN,TechD)--AI‚Éó‚¯g‚ğæ‚ç‚¹‚½‚èƒ_ƒEƒ“‚³‚¹‚½‚è‚·‚é
-DI(PN,OPN,"Away",math.random(5)+5)--‚¸‚ç‚·Bˆø”‚Í‡‚ÉA‚¸‚ç‚·‘¤‚Ìƒ|[ƒg”Ô†AUŒ‚‘¤‚Ìƒ|[ƒg”Ô†A•ûŒü("U","D","R","L","Inside","Outside","Close","Away")A‚¸‚ç‚µ—Ê(0~80)
+ShieldMODE(PN)--ã‚ªãƒ¼ãƒˆã‚¬ãƒ¼ãƒ‰ã€ã‚·ãƒ¼ãƒ«ãƒ‰è‡ªå‹•å›å¾©ã€ã‚¬ãƒ¼ãƒ‰é–¢é€£ã®æƒ…å ±ã‚’ã‚³ãƒ³ã‚½ãƒ¼ãƒ«ã‚¦ã‚£ãƒ³ãƒ‰ã‚¦ã«å‡ºåŠ›
+Teching(PN,TechD)--AIã«å—ã‘èº«ã‚’å–ã‚‰ã›ãŸã‚Šãƒ€ã‚¦ãƒ³ã•ã›ãŸã‚Šã™ã‚‹
+DI(PN,OPN,"Away",math.random(5)+5)--ãšã‚‰ã™ã€‚å¼•æ•°ã¯é †ã«ã€ãšã‚‰ã™å´ã®ãƒãƒ¼ãƒˆç•ªå·ã€æ”»æ’ƒå´ã®ãƒãƒ¼ãƒˆç•ªå·ã€æ–¹å‘("U","D","R","L","Inside","Outside","Close","Away")ã€ãšã‚‰ã—é‡(0~80)
 Reversal(PN)
 framecount=framecount+1-CheckHitLag(PN)
 --print(framecount)
 if framecount >299 then framecount=0 end
 
 
---•`‰æ----------------------------------
+--æç”»----------------------------------
 if drawFlag then
  drawMap()
- changePosition()--ƒ}ƒbƒv“à‚ğƒNƒŠƒbƒNA‰EƒNƒŠƒbƒN‚·‚é‚±‚Æ‚ÅƒLƒƒƒ‰‚ğˆÚ“®‚³‚¹‚é
+ changePosition()--ãƒãƒƒãƒ—å†…ã‚’ã‚¯ãƒªãƒƒã‚¯ã€å³ã‚¯ãƒªãƒƒã‚¯ã™ã‚‹ã“ã¨ã§ã‚­ãƒ£ãƒ©ã‚’ç§»å‹•ã•ã›ã‚‹
  --drawCalcRect(PositionX["P"..PN]-DistanceX[PN][OPN],PositionY["P"..PN],DistanceX[PN][OPN]*2,30)
  --LandingPred(PN)
  end
---À•W‘‚«Š·‚¦Œn
-Echoes(PN)--ŒÅ’è‚·‚é
+--åº§æ¨™æ›¸ãæ›ãˆç³»
+Echoes(PN)--å›ºå®šã™ã‚‹
 Echoes(OPN)
---Portal(PN)--ƒ[ƒv‚³‚¹‚é
+--Portal(PN)--ãƒ¯ãƒ¼ãƒ—ã•ã›ã‚‹
 --Portal(OPN)
 end)
 
---Œø‰ÊŠí-----------------------------------------
+--åŠ¹æœå™¨-----------------------------------------
 emu.atinput(function()--120FrameperSec
   if ControlFlag[1] then
     joypad.set(1, Inputs[framecount])
