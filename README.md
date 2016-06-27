@@ -21,6 +21,7 @@ Lua拡張したMupen64rerecording
 最初はmain.luaをメモ帳等で開きながら自分が使いやすいように編集してください。
 スクリプト起動中でも上書き保存後コンソールウィンドウでRestartするだけで変更を適用させる事ができます。
 
-
+###諸注意
+文字コードはShift-JIS系にする必要があります(UTF-8等ではコンソールウィンドウに日本語の文字列を出力した場合文字化けします)。
 
 MupenLua独自の関数につきましては[こちらを参考にしてください](https://code.google.com/archive/p/mupen64-rr/wikis/EmuLua.wiki)。
